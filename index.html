@@ -13,6 +13,16 @@
 </head>
 
 <body>
+    <!-- 紀錄訪客訪問狀況 -->
+    <script>
+        fetch("https://countvisitors.onrender.com/api/visit") // 發送GET請求，更新訪問數據
+          .then(res => res.json()) // 回應物件->json file
+          .then(data => {
+            console.log(data); 
+            // 其他分析(尚未做...)
+          });
+    </script>
+
     <!-- 導覽欄 -->
     <div class="container-fluid p-0 sticky-top">
         <nav class="navbar navbar-expand-lg navbar-custom">
