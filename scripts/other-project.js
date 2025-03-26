@@ -12,7 +12,7 @@ const other_projects = [
     },
     {
         link: "https://drive.google.com/file/d/1q0K3ZA03l2r066zmI3_YhhBGpryPg0Hu/view?usp=sharing", // 專案連結
-        img: "./asset/others-project.png", // 專案圖片
+        img: "./asset/system-project.png", // 專案圖片
         tools: ["Canva"], // 專案使用到的技術
         project_portfolio: "大學專題", // 作品資料
         project_type: "海報", // 作品類型
